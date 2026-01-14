@@ -26,10 +26,7 @@
                         "tsConfig": "tsconfig.app.json",
                         "inlineStyleLanguage": "css",
                         "assets": [
-                            {
-                                "glob": "**/*",
-                                "input": "public"
-                            }
+                            "src/assets"
                         ],
                         "styles": [
                             "src/assets/styles.scss"
@@ -73,10 +70,7 @@
                         "tsConfig": "tsconfig.spec.json",
                         "inlineStyleLanguage": "css",
                         "assets": [
-                            {
-                                "glob": "**/*",
-                                "input": "public"
-                            }
+                            "src/assets"
                         ],
                         "styles": [
                             "src/assets/styles.css"
